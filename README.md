@@ -43,7 +43,7 @@ FactFuse is an intelligent assistant that helps you research and reason over mul
 
 
 
-##📂 Project Structure
+## 📂 Project Structure
 
             FactFuse/
         ├── app.py                  # Main Streamlit application
@@ -59,7 +59,7 @@ FactFuse is an intelligent assistant that helps you research and reason over mul
 
 
 
-##💡 How It Works
+## 💡 How It Works
 
 
         🔍 You enter up to 3 news article URLs
@@ -78,7 +78,7 @@ FactFuse is an intelligent assistant that helps you research and reason over mul
 
 
 
-##🔍 Example Use Cases
+## 🔍 Example Use Cases
 
 
         📝 “Summarize the economic impact discussed in these articles.”
@@ -88,7 +88,7 @@ FactFuse is an intelligent assistant that helps you research and reason over mul
         🌍 “What’s the shared stance on the climate policy?”
 
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
 
 
         ✅ Accept more than 3 URLs
@@ -104,12 +104,12 @@ FactFuse is an intelligent assistant that helps you research and reason over mul
         ✅ Enable switching between OpenAI and open-source LLMs
 
 
-##📜 License
+## 📜 License
 
         This project is licensed under the MIT License.
 
 
-##🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 
         🧩 LangChain
