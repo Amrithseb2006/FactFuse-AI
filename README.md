@@ -4,6 +4,7 @@
 FactFuse is an intelligent assistant that helps you research and reason over multiple news articles. By combining web scraping, text processing, vector embeddings, and OpenAI’s language model, FactFuse lets you input URLs, ask natural language questions, and get clear, cited answers — all in one place.
 
 🚀 Features
+
 🔗 Accepts up to 3 news article URLs
 
 📝 Extracts and processes article text using UnstructuredURLLoader
@@ -36,9 +37,13 @@ FactFuse is an intelligent assistant that helps you research and reason over mul
 
     FactFuse/
 ├── app.py                  # Main Streamlit application
+
 ├── .env                    # Environment variables (API key)
+
 ├── requirements.txt        # Python dependencies
+
 ├── faiss_store_openai/     # Local FAISS vector storage
+
 └── README.md               # Project documentation
 
 💡 How It Works
