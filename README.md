@@ -1,10 +1,9 @@
 FactFuse:
-  description: |
     🧠 FactFuse is an intelligent assistant that helps you research and reason over multiple news articles.
     By combining web scraping, text processing, vector embeddings, and OpenAI’s language model,
     FactFuse lets you input URLs, ask natural language questions, and get clear, cited answers — all in one place.
 
-  features:
+  Features:
     - 🔗 Accepts up to 3 news article URLs
     - 📝 Extracts and processes article text using UnstructuredURLLoader
     - 🧩 Splits content into chunks with RecursiveCharacterTextSplitter
@@ -13,8 +12,8 @@ FactFuse:
     - 🤖 Uses RetrievalQAWithSourcesChain for question answering with sources
     - 💾 Persists vector index across sessions
 
-  setup:
-    steps:
+  Setup:
+    Steps:
       - 🚀 Clone the repository and navigate into the project directory
       - 🔐 Create a .env file in the root folder and add your OpenAI API key:
           OPENAI_API_KEY: your_openai_api_key_here
@@ -24,15 +23,15 @@ FactFuse:
           command: streamlit run app.py
       - 🌐 Open the Streamlit URL shown in your terminal to access the app
 
-  project_structure:
+  Project Structure:
     - 📂 app.py: Main Streamlit application
     - 🔑 .env: Environment variables (API key)
     - 📜 requirements.txt: Python dependencies
     - 💾 faiss_store_openai/: Local FAISS vector storage
     - 📖 README.md: Project documentation
 
-  how_it_works:
-    steps:
+ Working:
+    Steps:
       - 🔍 You enter up to 3 news article URLs
       - 📰 FactFuse loads and extracts the textual content from the pages
       - ✂️ The content is split into manageable chunks for embedding
@@ -41,12 +40,12 @@ FactFuse:
       - 💬 OpenAI's language model answers the question using the retrieved chunks
       - 📢 The answer and the source URLs are displayed on the screen
 
-  example_use_cases:
+  Example_use_cases:
     - 📝 Summarize the economic impact discussed in these articles.
     - 🏛️ Which article mentions government regulation on AI?
     - 🌍 What’s the shared stance on the climate policy?
 
-  future_improvements:
+  Future_improvements:
     - ✅ Accept more than 3 URLs
     - ✅ Handle broken URLs or unsupported pages gracefully
     - ✅ Support PDFs, YouTube transcripts, or local file uploads
@@ -54,9 +53,9 @@ FactFuse:
     - ✅ Add user authentication and history tracking
     - ✅ Enable switching between OpenAI and open-source LLMs
 
-  license: 📜 MIT License
+  License: 📜 MIT License
 
-  acknowledgements:
+  Acknowledgements:
     - 🧩 LangChain
     - 📦 FAISS
     - ⚡ Streamlit
